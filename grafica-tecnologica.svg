@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="2160" viewBox="0 0 720 1080">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#02030a"/><stop offset=".55" stop-color="#03091b"/><stop offset="1" stop-color="#08031b"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="1" x2=".8" y2="0"><stop stop-color="#00eaff" stop-opacity=".08"/><stop offset=".45" stop-color="#167dff" stop-opacity=".5"/><stop offset="1" stop-color="#6b8cff" stop-opacity=".85"/></linearGradient>
+ <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00f5ff"/><stop offset=".5" stop-color="#275cff"/><stop offset="1" stop-color="#ff28d7"/></linearGradient>
+ <linearGradient id="bar" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff31c8"/><stop offset=".5" stop-color="#4a49ff"/><stop offset="1" stop-color="#00eaff"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="soft"><feGaussianBlur stdDeviation="12"/></filter>
+ <pattern id="grid" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M18 0H0V18" fill="none" stroke="#337bff" stroke-opacity=".25" stroke-width=".7"/></pattern>
+</defs>
+<rect width="720" height="1080" fill="url(#bg)"/>
+<ellipse cx="340" cy="590" rx="270" ry="350" fill="#0647ff" opacity=".1" filter="url(#soft)"/>
+<!-- Rising holographic data surface -->
+<path d="M58 646 C95 605 115 594 146 570 S191 531 218 535 S258 501 289 487 S330 444 355 405 S397 355 421 309 S453 235 477 169 L524 145 L550 662 Z" fill="url(#blue)" opacity=".6"/>
+<path d="M58 646 C95 605 115 594 146 570 S191 531 218 535 S258 501 289 487 S330 444 355 405 S397 355 421 309 S453 235 477 169 L524 145" fill="none" stroke="#52baff" stroke-width="3" filter="url(#glow)"/>
+<path d="M58 646 L58 690 L550 690 L550 145" fill="none" stroke="#168cff" stroke-opacity=".8"/>
+<path d="M58 646 C95 605 115 594 146 570 S191 531 218 535 S258 501 289 487 S330 444 355 405 S397 355 421 309 S453 235 477 169 L524 145 L524 690 L58 690Z" fill="url(#grid)" opacity=".9"/>
+<!-- grid columns -->
+<g stroke="#4a8fff" stroke-opacity=".35" stroke-width=".8">
+<path d="M90 612V690 M125 584V690 M160 560V690 M195 540V690 M230 526V690 M265 508V690 M300 474V690 M335 438V690 M370 386V690 M405 337V690 M440 275V690 M475 190V690 M510 150V690"/>
+<path d="M58 660L550 660 M58 625L550 625 M58 590L550 590 M58 555L550 555 M58 520L550 520 M58 485L550 485 M58 450L550 450 M58 415L550 415 M58 380L550 380 M58 345L550 345 M58 310L550 310 M58 275L550 275 M58 240L550 240 M58 205L550 205 M58 170L550 170"/>
+</g>
+<!-- red trend lines -->
+<path d="M58 667 L100 650 L132 654 L170 628 L202 631 L244 594 L280 602 L315 557 L350 551 L384 490 L415 475 L448 410 L477 370 L508 335" fill="none" stroke="#ff263e" stroke-width="3" filter="url(#glow)"/>
+<path d="M58 681 L92 672 L128 680 L160 657 L193 649 L228 628 L260 625 L294 599 L325 583 L361 542 L393 527 L424 487 L460 455 L494 407 L526 384" fill="none" stroke="#ff4d89" stroke-width="1.6"/>
+<!-- tiny measurement lines -->
+<g stroke="#d5f5ff" stroke-width="1" fill="#f5fbff" font-family="monospace" font-size="7" opacity=".9">
+<path d="M120 580V534h-8 M178 550V498h-8 M230 520V458h-8 M284 488V427h-8 M340 430V365h-8 M393 355V297h-8 M444 266V205h-8 M492 178V104h-8 M525 145V66h-8"/>
+<circle cx="120" cy="580" r="2"/><circle cx="178" cy="550" r="2"/><circle cx="230" cy="520" r="2"/><circle cx="284" cy="488" r="2"/><circle cx="340" cy="430" r="2"/><circle cx="393" cy="355" r="2"/><circle cx="444" cy="266" r="2"/><circle cx="492" cy="178" r="2"/>
+<text x="99" y="529">DATA_04</text><text x="157" y="493">INDEX_12</text><text x="209" y="453">FLOW_28</text><text x="263" y="422">RATE_43</text><text x="319" y="360">NODE_61</text><text x="372" y="292">PEAK_78</text><text x="423" y="200">SYNC_91</text><text x="498" y="59">LIVE DATA</text>
+</g>
+<!-- circular futuristic dashboard -->
+<ellipse cx="350" cy="790" rx="333" ry="185" fill="#061344" fill-opacity=".65" stroke="#10cfff" stroke-width="2" filter="url(#glow)"/>
+<ellipse cx="350" cy="790" rx="300" ry="158" fill="none" stroke="url(#ring)" stroke-width="2"/>
+<ellipse cx="350" cy="790" rx="246" ry="126" fill="none" stroke="#358dff" stroke-width="1.5"/>
+<ellipse cx="350" cy="790" rx="168" ry="86" fill="none" stroke="#7beeff" stroke-opacity=".8" stroke-width="1"/>
+<ellipse cx="350" cy="790" rx="93" ry="48" fill="#071b4d" stroke="#3a8bff" stroke-width="1.5"/>
+<g stroke="#4e9fff" stroke-opacity=".55" stroke-width=".8">
+<path d="M17 790H683 M49 730L651 850 M49 850L651 730 M110 670L590 910 M110 910L590 670 M180 625L520 955 M180 955L520 625"/>
+<path d="M350 605V975 M270 614L430 966 M190 640L510 940 M120 681L580 899 M65 735L635 845"/>
+</g>
+<!-- luminous circular ticks -->
+<g stroke="#6cefff" stroke-width="2" opacity=".95">
+<path d="M31 790h13 M38 752l12 3 M59 716l12 6 M91 682l10 8 M130 654l9 10 M177 633l7 12 M230 617l4 13 M286 608l2 13 M344 605v14 M401 608l-2 13 M457 617l-4 13 M510 633l-7 12 M557 654l-9 10 M596 682l-10 8 M628 716l-12 6 M649 752l-12 3"/>
+</g>
+<!-- radial bars around the front rim -->
+<g stroke-linejoin="round" filter="url(#glow)">
+<path d="M50 856l38 13 16 32-39-9z" fill="#f21ab7" stroke="#ff71e2"/>
+<path d="M111 884l42 12 15 27-42-9z" fill="#ff365d" stroke="#ff9dba"/>
+<path d="M180 908l42 7 13 25-42-5z" fill="#f22b93" stroke="#ff7acb"/>
+<path d="M250 922l42 3 10 22-42-1z" fill="#00aaff" stroke="#60eaff"/>
+<path d="M323 928l43 0 7 24-42 0z" fill="#ff267c" stroke="#ff8ac8"/>
+<path d="M396 925l42-4 12 23-42 5z" fill="#8d35ff" stroke="#bf9aff"/>
+<path d="M468 911l41-9 17 25-42 10z" fill="#fa247d" stroke="#ff85bc"/>
+<path d="M534 885l39-15 20 24-40 15z" fill="#ff243e" stroke="#ff9a9a"/>
+<path d="M593 850l34-18 24 21-35 18z" fill="#ff3268" stroke="#ff9ec7"/>
+</g>
+<!-- fine tech annotations -->
+<g fill="#b9e9ff" font-family="monospace" font-size="7" opacity=".85">
+<text x="283" y="780">CORE / ANALYTICS</text><text x="305" y="797">DATA FLOW</text><text x="321" y="812">NODE 07</text>
+<text x="76" y="817">01</text><text x="157" y="858">02</text><text x="244" y="874">03</text><text x="354" y="876">04</text><text x="449" y="864">05</text><text x="536" y="824">06</text>
+<text x="26" y="978">SYSTEM MONITOR // REAL-TIME VISUALIZATION</text><text x="438" y="1000">BUILD 2026.10</text>
+</g>
+<g stroke="#2baaff" stroke-opacity=".5" fill="none">
+<path d="M0 1007L720 1007 M0 1020L720 1020 M0 1033L720 1033"/>
+<path d="M20 1050H700 M35 1045v10 M70 1045v10 M105 1045v10 M140 1045v10 M175 1045v10 M210 1045v10 M245 1045v10 M280 1045v10 M315 1045v10 M350 1045v10 M385 1045v10 M420 1045v10 M455 1045v10 M490 1045v10 M525 1045v10 M560 1045v10 M595 1045v10 M630 1045v10 M665 1045v10"/>
+</g>
+</svg>
