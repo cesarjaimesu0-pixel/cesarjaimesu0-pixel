@@ -1,6 +1,6 @@
 <!-- Perfil personal | estética cyber-botánica holográfica -->
 <p align="center">
-  <img src="banner.svg" alt="Flor holográfica y raíces de datos — Cesar Jaimes" width="100%" />
+  <img src="banner-exact-reference.jpg" alt="Flor holográfica y raíces de datos — Cesar Jaimes" width="100%" />
 </p>
 
 <h1 align="center">CESAR JAIMES</h1>
