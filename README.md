@@ -15,7 +15,7 @@
 
 <div align="center">
 
-<img src="./grafica-tecnologica.svg" alt="Visualización futurista de datos con gráfica ascendente azul y líneas rojas sobre un panel circular holográfico" width="700" />
+<img src="./grafica-tecnologica.svg" alt="Panel holográfico 3D de desarrollador con gráfica de datos azul y roja, repositorios y plataforma tecnológica futurista" width="100%" />
 
 </div>
 
