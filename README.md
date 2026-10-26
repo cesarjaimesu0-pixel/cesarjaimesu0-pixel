@@ -46,11 +46,6 @@ Trabajo desde una mentalidad analítica, con curiosidad técnica y aprendizaje c
 ### ACTIVIDAD DE GITHUB // 04
 
 <p align="center">
-  <img src="./assets/contribution-flowers.svg" width="100%" alt="Ilustración panorámica cyber-botánica holográfica: flor translúcida con pétalos cian, índigo, violeta y magenta, filamentos luminosos, raíces digitales y anotaciones técnicas" />
-</p>
-<p align="center"><sub>HOLOGRAPHIC FLORA / CYBER-BOTANICAL SYSTEMS</sub></p>
-
-<p align="center">
   <img src="./profile-3d-contrib/contributions-topographic.svg" width="100%" alt="Actividad anual de GitHub representada como terreno topográfico 3D en tonos cian, índigo y violeta" />
 </p>
 <p align="center"><sub>CONTRIBUTION TERRAIN / REAL GITHUB ACTIVITY / DAILY REFRESH</sub></p>
