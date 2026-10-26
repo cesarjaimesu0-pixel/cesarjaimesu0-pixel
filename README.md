@@ -43,7 +43,14 @@ Trabajo desde una mentalidad analítica, con curiosidad técnica y aprendizaje c
   <img src="https://img.shields.io/badge/POWER%20BI-111820?style=for-the-badge&logo=powerbi&logoColor=F2C811" alt="Power BI" />
 </p>
 
-### ACTIVIDAD DE GITHUB // 04
+### CONTRIBUTIONS IN THE LAST YEAR // 04
+
+<p align="center">
+  <img src="./profile-3d-contrib/contributions-topographic.svg" width="100%" alt="Calendario de contribuciones de GitHub en 3D isométrico, paleta cian, índigo y violeta" />
+</p>
+<p align="center"><sub>CONTRIBUTION TERRAIN / REAL GITHUB ACTIVITY / DAILY REFRESH</sub></p>
+
+### ESTADÍSTICAS DE GITHUB // 05
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=cesarjaimesu0-pixel&show_icons=true&hide_border=true&bg_color=05070c&title_color=72efff&text_color=dce4f2&icon_color=ff68cf&ring_color=9b8cff" alt="Estadísticas públicas de GitHub" />
@@ -53,7 +60,7 @@ Trabajo desde una mentalidad analítica, con curiosidad técnica y aprendizaje c
   <img src="https://streak-stats.demolab.com?user=cesarjaimesu0-pixel&hide_border=true&background=05070c&ring=72efff&fire=ff68cf&currStreakLabel=dce4f2&sideLabels=dce4f2&dates=9ba9bb" alt="Racha de contribuciones" />
 </p>
 
-### CONEXIÓN // 05
+### CONEXIÓN // 06
 
 <p align="center">
   <a href="https://github.com/cesarjaimesu0-pixel"><img src="https://img.shields.io/badge/GITHUB-VER%20PERFIL-05070c?style=for-the-badge&logo=github&logoColor=white" alt="Mi perfil de GitHub" /></a>
