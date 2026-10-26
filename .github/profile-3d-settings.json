@@ -1,0 +1,19 @@
+[
+  {
+    "type": "normal",
+    "fileName": "contributions-topographic.svg",
+    "backgroundColor": "#05070c",
+    "foregroundColor": "#dce4f2",
+    "strongColor": "#55dde0",
+    "weakColor": "#777f98",
+    "radarColor": "#ff68cf",
+    "growingAnimation": true,
+    "contribColors": [
+      "#10121d",
+      "#292653",
+      "#493a99",
+      "#7966df",
+      "#55dde0"
+    ]
+  }
+]
