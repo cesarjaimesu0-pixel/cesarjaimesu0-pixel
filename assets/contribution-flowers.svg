@@ -1,58 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
-<title id="title">Flores holográficas decorativas</title>
-<desc id="desc">Tres flores lineales de estilo cyber-botánico en cian, violeta y magenta sobre fondo negro.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420" role="img" aria-labelledby="title desc">
+<title id="title">Flores holográficas cyber-botánicas</title>
+<desc id="desc">Ilustración panorámica de una flor holográfica luminosa con pétalos transparentes cian, violeta y magenta, raíces de datos y líneas de plano técnico sobre fondo negro.</desc>
 <defs>
- <radialGradient id="petal" cx="50%" cy="35%" r="70%">
-  <stop offset="0" stop-color="#55dde0" stop-opacity=".28"/>
-  <stop offset=".65" stop-color="#9b8cff" stop-opacity=".14"/>
-  <stop offset="1" stop-color="#ff68cf" stop-opacity=".03"/>
- </radialGradient>
- <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
-  <stop stop-color="#55dde0"/><stop offset=".52" stop-color="#9b8cff"/><stop offset="1" stop-color="#ff68cf"/>
- </linearGradient>
- <filter id="glow"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
- <g id="flower" stroke="url(#line)" stroke-width="1.25" fill="url(#petal)" filter="url(#glow)">
-  <ellipse cy="-28" rx="13" ry="29"/>
-  <ellipse cy="-28" rx="13" ry="29" transform="rotate(45)"/>
-  <ellipse cy="-28" rx="13" ry="29" transform="rotate(90)"/>
-  <ellipse cy="-28" rx="13" ry="29" transform="rotate(135)"/>
-  <ellipse cy="-28" rx="13" ry="29" transform="rotate(180)"/>
-  <ellipse cy="-28" rx="13" ry="29" transform="rotate(225)"/>
-  <ellipse cy="-28" rx="13" ry="29" transform="rotate(270)"/>
-  <ellipse cy="-28" rx="13" ry="29" transform="rotate(315)"/>
-  <circle r="9" fill="#05070c" stroke="#55dde0"/>
-  <circle r="3" fill="#ffcf70" stroke="none"/>
+ <linearGradient id="edge" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#42f5e9"/><stop offset=".48" stop-color="#8875ff"/><stop offset=".76" stop-color="#ff58d1"/><stop offset="1" stop-color="#f5d8ff"/></linearGradient>
+ <radialGradient id="glass" cx=".48" cy=".42" r=".7"><stop stop-color="#c4fbff" stop-opacity=".55"/><stop offset=".34" stop-color="#60dfff" stop-opacity=".24"/><stop offset=".72" stop-color="#a06dff" stop-opacity=".16"/><stop offset="1" stop-color="#ff54d7" stop-opacity=".03"/></radialGradient>
+ <radialGradient id="core"><stop stop-color="#fff9e7"/><stop offset=".24" stop-color="#ffb9f0"/><stop offset=".55" stop-color="#8cfff6" stop-opacity=".8"/><stop offset="1" stop-color="#9c70ff" stop-opacity="0"/></radialGradient>
+ <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <g id="petal">
+  <path d="M0 0 C-38-30-73-92-28-151 C-8-177 8-180 25-149 C61-92 34-31 0 0Z" fill="url(#glass)" stroke="url(#edge)" stroke-width="2"/>
+  <path d="M0 0 C-12-48-16-104 0-165 C13-110 12-55 0 0" fill="none" stroke="#c4faff" stroke-opacity=".6" stroke-width="1.2"/>
+  <path d="M0-12 Q-34-68-29-122 M0-12 Q30-72 23-122" fill="none" stroke="#b7a8ff" stroke-opacity=".65" stroke-width=".8"/>
+  <path d="M-28-70 Q0-89 28-70 M-21-100 Q0-115 22-98" fill="none" stroke="#ff79dd" stroke-opacity=".55" stroke-width=".8"/>
+ </g>
+ <g id="bloom">
+  <use href="#petal" transform="rotate(0)"/>
+  <use href="#petal" transform="rotate(45) scale(.93)"/>
+  <use href="#petal" transform="rotate(90) scale(.86)"/>
+  <use href="#petal" transform="rotate(135) scale(.93)"/>
+  <use href="#petal" transform="rotate(180)"/>
+  <use href="#petal" transform="rotate(225) scale(.93)"/>
+  <use href="#petal" transform="rotate(270) scale(.86)"/>
+  <use href="#petal" transform="rotate(315) scale(.93)"/>
+  <circle r="48" fill="url(#core)" filter="url(#glow)"/>
+  <g stroke="url(#edge)" stroke-width="1.5" filter="url(#glow)">
+   <path d="M0 4L-8-58M0 4L19-48M0 4L39-31M0 4L-32-34M0 4L-43-15M0 4L7-69M0 4L-19-53" fill="none"/>
+   <g fill="#e8ffff" stroke="#55dde0"><circle cx="-8" cy="-58" r="4"/><circle cx="19" cy="-48" r="3.5"/><circle cx="39" cy="-31" r="3"/><circle cx="-32" cy="-34" r="3.5"/><circle cx="-43" cy="-15" r="3"/><circle cx="7" cy="-69" r="4"/><circle cx="-19" cy="-53" r="3.5"/></g>
+  </g>
  </g>
 </defs>
-<rect width="1200" height="190" rx="5" fill="#05070c"/>
-<g fill="none" stroke="#243143" stroke-width=".7" opacity=".9">
- <path d="M0 95H1200M0 28H1200M0 162H1200"/>
- <path d="M25 12V178M1175 12V178"/>
- <path d="M25 12h95M1080 178h95"/>
+<rect width="1600" height="420" fill="#03050a"/>
+<g fill="none" stroke="#405066" stroke-width=".8" opacity=".7">
+ <path d="M18 24H1582V396H18Z M30 40V380 M1570 40V380 M30 210H1570"/>
+ <path d="M38 64h190M38 70h108M1370 350h190M1460 356h100"/>
+ <path d="M315 24v58h95M1280 24v55h-100M315 396v-55h80M1280 396v-60h-75"/>
+ <circle cx="800" cy="188" r="154" stroke-dasharray="2 8"/><circle cx="800" cy="188" r="128" stroke-dasharray="1 5"/>
 </g>
-<g opacity=".82">
- <path d="M92 150C112 115 114 95 105 65M105 113q-27-8-38-30M108 128q24-18 39-17" fill="none" stroke="#55dde0" stroke-width="1.3"/>
- <ellipse cx="69" cy="80" rx="15" ry="6" transform="rotate(35 69 80)" fill="#55dde0" fill-opacity=".12" stroke="#55dde0"/>
- <ellipse cx="144" cy="111" rx="15" ry="6" transform="rotate(-28 144 111)" fill="#ff68cf" fill-opacity=".12" stroke="#ff68cf"/>
- <use href="#flower" x="105" y="48" transform="translate(105 48) scale(.88) translate(-105 -48)"/>
+<g fill="#55dde0" opacity=".8"><circle cx="38" cy="64" r="2"/><circle cx="228" cy="64" r="2"/><circle cx="1370" cy="350" r="2"/><circle cx="1560" cy="350" r="2"/></g>
+<g transform="translate(800 184)" filter="url(#glow)">
+ <use href="#bloom" transform="scale(1.03)"/>
+ <path d="M0 26 C-18 92 13 150-7 214 M-7 214 C-74 245-106 270-168 294 M-7 214 C58 246 99 271 164 296 M-8 214 C-4 270-31 308-54 330" fill="none" stroke="url(#edge)" stroke-width="3"/>
+ <path d="M-16 128Q-72 151-104 128Q-67 183-9 177 M10 166Q65 143 102 159Q68 197 9 199" fill="url(#glass)" stroke="url(#edge)" stroke-width="1.5"/>
+ <path d="M-7 214l-44 50m44-50 38 61m-38-61-88 31m88-31 100 30m-100-30-17 91" fill="none" stroke="#55dde0" stroke-opacity=".65" stroke-width="1.3"/>
 </g>
-<g opacity=".95">
- <path d="M600 174V109M600 145q-35-22-60-16M600 155q36-30 63-24" fill="none" stroke="url(#line)" stroke-width="1.6"/>
- <ellipse cx="540" cy="128" rx="23" ry="8" transform="rotate(25 540 128)" fill="#55dde0" fill-opacity=".14" stroke="#55dde0"/>
- <ellipse cx="663" cy="131" rx="23" ry="8" transform="rotate(-24 663 131)" fill="#ff68cf" fill-opacity=".13" stroke="#ff68cf"/>
- <use href="#flower" x="600" y="72" transform="translate(600 72) scale(1.32) translate(-600 -72)"/>
+<g transform="translate(430 205) scale(.37)" opacity=".78"><use href="#bloom"/></g>
+<g transform="translate(1205 130) scale(.3)" opacity=".75"><use href="#bloom"/></g>
+<g fill="none" stroke="#ff68cf" stroke-width=".9" opacity=".65"><path d="M570 94L660 94 700 128M1028 300h90l30-28M348 287h86l35-28"/></g>
+<g fill="#a9b7cc" font-family="monospace" font-size="9" letter-spacing="1.5" opacity=".9">
+ <text x="48" y="51">BOTANICAL SPECIMEN / 04</text><text x="48" y="365">HOLOGRAPHIC PETAL ARRAY</text><text x="1390" y="51">FLORA / SYNTHESIS</text><text x="1370" y="365">DATA ROOT NETWORK</text>
+ <text x="50" y="382" fill="#55dde0">CYAN • INDIGO • VIOLET • MAGENTA</text>
 </g>
-<g opacity=".82">
- <path d="M1095 156c-10-27-8-51 5-79M1100 126q-25-6-39-26M1098 137q26-17 42-13" fill="none" stroke="#9b8cff" stroke-width="1.3"/>
- <ellipse cx="1062" cy="99" rx="15" ry="6" transform="rotate(35 1062 99)" fill="#9b8cff" fill-opacity=".14" stroke="#9b8cff"/>
- <ellipse cx="1140" cy="124" rx="15" ry="6" transform="rotate(-20 1140 124)" fill="#55dde0" fill-opacity=".12" stroke="#55dde0"/>
- <use href="#flower" x="1100" y="55" transform="translate(1100 55) scale(.86) translate(-1100 -55)"/>
-</g>
-<g fill="#55dde0">
- <circle cx="198" cy="38" r="2"/><circle cx="235" cy="150" r="1.5"/><circle cx="460" cy="35" r="1.5"/><circle cx="746" cy="151" r="2"/><circle cx="887" cy="40" r="1.5"/><circle cx="980" cy="153" r="1.5"/>
-</g>
-<g fill="#ff68cf">
- <rect x="215" y="34" width="5" height="5"/><rect x="955" y="40" width="5" height="5"/><rect x="800" y="147" width="4" height="4"/>
-</g>
-<text x="600" y="183" text-anchor="middle" font-family="monospace" font-size="8" letter-spacing="3" fill="#9ba9bb">CYBER-BOTANICAL CONTRIBUTION GARDEN</text>
+<g fill="#ff68cf"><rect x="256" y="85" width="5" height="5"/><rect x="1338" y="285" width="5" height="5"/><rect x="1110" y="75" width="4" height="4"/></g>
+<g fill="#55dde0"><circle cx="275" cy="298" r="2"/><circle cx="1324" cy="95" r="2"/><circle cx="680" cy="333" r="1.5"/><circle cx="950" cy="55" r="1.5"/></g>
 </svg>
