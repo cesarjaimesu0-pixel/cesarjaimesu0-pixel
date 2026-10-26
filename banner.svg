@@ -1,17 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="540" viewBox="0 0 1600 540">
 <defs>
- <linearGradient id="petal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#73f7ff"/><stop offset=".35" stop-color="#9c8cff"/><stop offset=".67" stop-color="#ff62cf"/><stop offset="1" stop-color="#f7c66b"/></linearGradient>
- <radialGradient id="glow"><stop stop-color="#3deaff" stop-opacity=".28"/><stop offset="1" stop-color="#020307" stop-opacity="0"/></radialGradient>
- <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#6c7a91" stroke-opacity=".2" stroke-width="1"/></pattern>
- <filter id="blur"><feGaussianBlur stdDeviation="10"/></filter>
+ <linearGradient id="iridescence" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#50f5ff"/><stop offset=".27" stop-color="#637dff"/><stop offset=".52" stop-color="#ed65ff"/><stop offset=".76" stop-color="#4be8e0"/><stop offset="1" stop-color="#ffc66e"/></linearGradient>
+ <radialGradient id="aura"><stop stop-color="#4a30a0" stop-opacity=".28"/><stop offset="1" stop-color="#020307" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#77849b" stroke-opacity=".18"/></pattern>
+ <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
 </defs>
-<rect width="1200" height="360" fill="#030408"/><rect width="1200" height="360" fill="url(#grid)"/><ellipse cx="600" cy="180" rx="360" ry="210" fill="url(#glow)"/>
-<g stroke="#a5b2c6" stroke-opacity=".28" fill="none"><path d="M34 28H300V76M1166 32H900V70M30 328H220V292M1170 330H970V294"/><circle cx="600" cy="164" r="125"/><circle cx="600" cy="164" r="160" stroke-dasharray="3 9"/><path d="M600 15V320M420 164H780M470 44L730 284M730 44L470 284"/></g>
-<g transform="translate(600 154)" fill="none" stroke="url(#petal)" stroke-width="2.4">
-<path d="M0 0C-130-28-170-118-86-133C-28-143-22-55 0 0C24-85 45-158 94-128C157-90 75-20 0 0C95-30 170-60 170-7C169 49 68 33 0 0C66 57 115 117 64 139C12 160 7 63 0 0C-19 88-45 164-91 126C-141 83-55 21 0 0C-93 24-167 45-168-5C-170-57-66-35 0 0Z"/>
-<path d="M0 0C-90-30-125-88-84-100S-24-20 0 0S48-115 89-92S37-10 0 0S130 28 115 58S16 29 0 0S-29 120-65 96S-28 17 0 0S-120 19-119-9S-32-27 0 0Z" stroke-opacity=".65"/>
-<path d="M0 0L-190-92M0 0L190-70M0 0L-155 110M0 0L135 142M0 0L12-170M0 0L-10 175" stroke-opacity=".4" stroke-width="1"/>
+<rect width="1600" height="540" fill="#020307"/><rect width="1600" height="540" fill="url(#grid)"/><ellipse cx="1000" cy="240" rx="520" ry="340" fill="url(#aura)"/>
+<g fill="none" stroke="#9aa9bd" stroke-opacity=".25" stroke-width="1"><path d="M24 22H280M24 22V170M1575 20H1340M1575 20V180M22 520H300M1578 520H1320"/><circle cx="1000" cy="220" r="190"/><circle cx="1000" cy="220" r="238" stroke-dasharray="3 10"/><path d="M1000 0V530M740 220H1260M815 35L1185 405M1185 35L815 405"/></g>
+<g fill="none" stroke="url(#iridescence)" stroke-width="2.5" stroke-linejoin="round">
+ <path d="M1000 228 C875 188 798 101 857 61 C918 20 980 122 1000 228 C1018 107 1094 26 1144 66 C1202 112 1118 190 1000 228 C1120 185 1245 172 1254 228 C1265 289 1128 282 1000 228 C1090 315 1125 405 1062 422 C1005 437 1008 315 1000 228 C970 352 922 431 867 398 C806 361 900 269 1000 228 C878 269 753 282 746 224 C738 163 879 178 1000 228Z"/>
+ <path d="M1000 228 C907 196 857 129 891 101 C925 74 978 155 1000 228 C1034 131 1085 86 1118 115 C1153 147 1085 203 1000 228 C1094 217 1197 214 1199 246 C1201 281 1085 261 1000 228 C1058 298 1085 363 1047 373 C1010 382 1016 286 1000 228 C970 312 930 375 899 350 C868 326 937 252 1000 228 C913 244 812 258 809 227 C806 199 920 204 1000 228Z" stroke-opacity=".72"/>
+ <path d="M1000 230 C1005 315 1020 385 1005 520 M1000 375 C940 407 906 441 872 485 M1006 420 C1080 431 1136 464 1185 498 M984 438 C937 454 911 478 890 511" stroke-width="3"/>
+ <path d="M1000 232L900 75M1000 232L1150 80M1000 232L1238 222M1000 232L1080 415M1000 232L850 402M1000 232L755 214" stroke-opacity=".55" stroke-width="1"/>
 </g>
-<g fill="#9ba9bb" font-family="monospace" font-size="10" letter-spacing="2"><text x="42" y="48">CJ / SYSTEMS PROFILE</text><text x="42" y="64">SOFTWARE · ANALYSIS · AI</text><text x="970" y="48">FIELD NOTES // 001</text><text x="970" y="64">NEURAL BOTANICS</text><text x="42" y="310">BUILD / ANALYZE / AUTOMATE</text><text x="970" y="310">HUMAN-CENTERED TECHNOLOGY</text></g>
-<text x="600" y="338" text-anchor="middle" fill="#e9edf6" font-family="monospace" font-size="15" letter-spacing="5">CESAR JAIMES — SOFTWARE &amp; AI</text>
+<g fill="none" stroke="#28dff8" stroke-opacity=".5"><path d="M650 70h110v36h70M1290 110h90v-30h80M680 430h100v-50h100M1260 420h130v42h90"/><circle cx="830" cy="106" r="3"/><circle cx="1380" cy="80" r="3"/><circle cx="880" cy="380" r="3"/><circle cx="1390" cy="462" r="3"/></g>
+<g fill="url(#iridescence)" opacity=".85"><circle cx="1000" cy="228" r="6"/><circle cx="970" cy="205" r="3"/><circle cx="1029" cy="196" r="3"/><circle cx="1050" cy="245" r="2.5"/><circle cx="949" cy="249" r="2.5"/></g>
+<g fill="#a6b1c3" font-family="monospace" font-size="11" letter-spacing="2"><text x="42" y="44">CYBER-BOTANICAL / HOLOGRAPHIC SPECIMEN</text><text x="42" y="64">NEURAL SYSTEMS · SOFTWARE · ANALYSIS</text><text x="1320" y="44">FIELD STUDY // 001</text><text x="1320" y="64">DATA ROOT NETWORK</text><text x="42" y="490">ANALYZE / BUILD / EVOLVE</text><text x="1320" y="490">AI SOLUTIONS</text></g>
 </svg>
