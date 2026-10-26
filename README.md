@@ -13,6 +13,12 @@
 
 ---
 
+<div align="center">
+
+<img src="./grafica-tecnologica.svg" alt="Visualización futurista de datos con gráfica ascendente azul y líneas rojas sobre un panel circular holográfico" width="700" />
+
+</div>
+
 ## 👋 Sobre mí
 
 Estudio **Tecnología y Sistemas de la Información** y estoy construyendo mis habilidades en programación y desarrollo de soluciones digitales. Me interesa combinar tecnología, datos y procesos para crear herramientas útiles, claras y fáciles de usar.
@@ -20,6 +26,7 @@ Estudio **Tecnología y Sistemas de la Información** y estoy construyendo mis h
 ## 🛠️ En qué estoy trabajando
 
 ### SAUCE ERP / CRM — prototipo en desarrollo
+
 Una idea de sistema para organizar operaciones y facilitar el seguimiento de información, con funciones como:
 
 - Control de inventario y alertas de existencias.
